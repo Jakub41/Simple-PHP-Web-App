@@ -8,7 +8,6 @@
         <li><a href="result.php" class="result_text">Results</a></li>
         <li><a href="donation.php" class="donate_text">Donations</a></li>
         <li ><a href="#" id="lang">Danish</a></li>
-        
         <li></li>
       </ul>
 
