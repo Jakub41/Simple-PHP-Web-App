@@ -1,2 +1,6 @@
-# Mono-Solutions-Assignment
-A multi language site task
+# A PHP APP
+A multi language site built in PHP
+
+## How to run it
+
+
