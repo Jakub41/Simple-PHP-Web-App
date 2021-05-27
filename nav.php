@@ -7,7 +7,7 @@
         <li><a href="index.php#form" class="contact_text">ContactUs</a></li>
         <li><a href="result.php" class="result_text">Results</a></li>
         <li><a href="donation.php" class="donate_text">Donations</a></li>
-        <li ><a href="#" id="lang">Danish</a></li>
+        <li ><a href="#" id="lang">Testing</a></li>
         <li></li>
       </ul>
 
@@ -18,7 +18,7 @@
         <li><a href="index.php#form" class="contact_text">ContactUs</a></li>
         <li><a href="result.php" class="result_text">Results</a></li>
         <li><a href="donation.php" class="donate_text">Donations</a></li>
-        <li ><a href="#" id="lang">Danish</a></li>  
+        <li ><a href="#" id="lang">Testing</a></li>  
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
