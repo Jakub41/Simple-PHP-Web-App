@@ -2,7 +2,7 @@
     <div class="nav-wrapper container">
       <a id="logo-container" href="#" class="brand-logo">AJL</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="index.php" class="home_text">Home</a></li>
+        <li><a href="index.php" class="home_text">Prod</a></li>
         <li><a href="index.php#about_scroll" class="about_text">About</a></li>
         <li><a href="index.php#form" class="contact_text">ContactUs</a></li>
         <li><a href="result.php" class="result_text">Results</a></li>
@@ -13,7 +13,7 @@
 
     
       <ul id="nav-mobile" class="side-nav" style="color:#03a9f4; ">
-        <li><a href="index.php" class="home_text">Home</a></li>
+        <li><a href="index.php" class="home_text">Prod</a></li>
         <li><a href="index.php#about_scroll" class="about_text">About</a></li>
         <li><a href="index.php#form" class="contact_text">ContactUs</a></li>
         <li><a href="result.php" class="result_text">Results</a></li>
