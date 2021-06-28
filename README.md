@@ -1,7 +1,7 @@
 # A PHP APP
 A multi language site built in PHP. The solution is a simple site which has 2 languages ENG/DK. The idea was to show a PHP app with an efficient responsive design and have a language switcher.  
 
-## How to run tesing nv
+## How to run tesing environment
 
 
 These are the instruction how to run the solution on your machine:
