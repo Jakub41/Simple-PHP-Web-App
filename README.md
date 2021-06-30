@@ -1,4 +1,4 @@
-# A PHP APP enoah i soluiton
+# A PHP APP venkatesh
 A multi language site built in PHP. The solution is a simple site which has 2 languages ENG/DK. The idea was to show a PHP app with an efficient responsive design and have a language switcher.  
 
 ## How to run tesing environment
