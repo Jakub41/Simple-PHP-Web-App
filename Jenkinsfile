@@ -19,7 +19,7 @@ pipeline
 	    
 	    
             
-	   /*  stage ('approval required'){
+	     stage ('approval required'){
 	         steps {
 	        emailext (
 	        attachLog: true,
@@ -40,8 +40,8 @@ pipeline
                             }
                         }
                         
-                        }*/
-/*post
+                        }
+post
     { 
 		aborted
         {
@@ -84,7 +84,7 @@ pipeline
                         }
                         
                         }
-        }*/
+        }
 
 		 stage ('deploy to prod'){
 			steps
@@ -100,7 +100,7 @@ pipeline
     }
 		 
     
-   /* post
+    post
     { 
 		always
         {
@@ -116,7 +116,7 @@ pipeline
         }
 		 }
 		 
-	}*/
+	}
 
 }
 }
