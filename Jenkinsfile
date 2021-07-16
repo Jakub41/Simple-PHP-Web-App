@@ -8,7 +8,7 @@ pipeline
 	    stage('Checkout APP files'){
 	        steps
 	        {
-	            git credentialsId: 'c92375ea-bc2a-4233-93ad-0635764ee21c', url: 'https://vinothdevops@bitbucket.org/vinothdevops/simple-php-web-app.git'
+	            git branch: 'Test', credentialsId: '020b8cae-4e4c-472a-996d-95350e61c5c3', url: 'https://github.com/shynivino/Simple-PHP-Web-App.git'
 	            echo 'checkout completed'
 	            
 	           }
