@@ -2,9 +2,7 @@ pipeline
 {
     
 	agent any
-/*	triggers {
-  pollSCM '* * * * *'
-}*/
+
     stages
 	{
 	    stage('Checkout APP files'){
@@ -41,7 +39,7 @@ pipeline
                         }
                         
                         }
-post
+ post
     { 
 		aborted
         {
@@ -83,7 +81,7 @@ post
                             }
                         }
                         
-                        }
+             }
         }
 
 		 stage ('deploy to prod'){
@@ -120,7 +118,7 @@ post
 
 }
 }
-}
+
 	
 
 	
