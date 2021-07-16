@@ -92,8 +92,8 @@ pipeline
 			 sshagent(['14115821-f08d-4b98-9a9b-4b5c0a62c782'])  {
 		
         sh  '''
-        
-        rsync -av --update /var/lib/jenkins/workspace/TestPHP_Project/* enoah@10.0.9.152:/var/www/html'''
+        echo "test" '''
+        //rsync -av --update /var/lib/jenkins/workspace/TestPHP_Project/* enoah@10.0.9.152:/var/www/html'''
 
         }
         
