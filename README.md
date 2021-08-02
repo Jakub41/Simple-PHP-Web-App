@@ -1,9 +1,9 @@
-# A PHP APP
-A multi language site built in PHP. The solution is a simple site which has 2 languages ENG/DK. The idea was to show a PHP app with an efficient responsive design and have a language switcher.  
+# A PHP APP successful files  Dev Environment success
+A multi language site built in PHP. The solution is a simple site which has 2 languages ENG/DK. The idea was to show a PHP app with an efficient responsive design and have a language switcher.  sas
 
-## How to run it
+## How to run tesing environment
 
-
+asa
 These are the instruction how to run the solution on your machine:
 
 Clone the repo to your www folder or where you prefer `git clone https://github.com/Jakub41/Simple-PHP-Web-App.git `
