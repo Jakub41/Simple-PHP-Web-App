@@ -3,16 +3,21 @@ name: CI
 on: [push]
 
 jobs:
-  build-test:
+  Tests:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v3
       - uses: php-actions/composer@v6
-      - name: Tests
-        uses: php-actions/phpstan@v3
+      - uses: php-actions/phpstan@v3
         with:
           path: php/
           level: 5
-      - name: Build
-        run: echo building app ⚙... 
+  
+  Build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo building app ⚙...
+  Deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo deploying docker image 📤...
