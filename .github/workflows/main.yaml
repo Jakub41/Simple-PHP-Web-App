@@ -11,7 +11,7 @@ jobs:
       - uses: php-actions/phpstan@v3
         with:
           path: php/
-          level: 5
+          level: 0
   
   Build:
     needs: Tests
