@@ -31,7 +31,6 @@ jobs:
         with:
           push: false
           tags: spwa:latest
-          outputs: type=local,dest=outputs
     
   Deploy:
     needs: Build
