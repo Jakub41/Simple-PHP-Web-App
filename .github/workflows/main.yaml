@@ -46,7 +46,6 @@ jobs:
         name: Build and deploy
         uses: docker/build-push-action@v4
         with:
-          context: .
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
