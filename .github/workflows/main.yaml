@@ -7,11 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-        with:
-          path: app/php/
       - uses: php-actions/composer@v6
         with:
-          path: app/php/
+          working_dir: app/php/
       - uses: php-actions/phpstan@v3
         with:
           path: app/php/
