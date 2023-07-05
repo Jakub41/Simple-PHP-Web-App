@@ -1,5 +1,5 @@
  <?php
-$servername = "localhost"; // Server name where the app has the DB
+$servername = "spwa-mariadb"; // Server name where the app has the DB
 $username = "root"; // user of the DB 
 $password = "root"; // password of the DB
 $dbname = "mono"; // DB name 
