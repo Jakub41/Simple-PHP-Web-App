@@ -79,3 +79,4 @@ npm-debug.log
 .phpintel
 
 vendor/
+outputs/s
