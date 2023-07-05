@@ -10,7 +10,7 @@ jobs:
       - uses: php-actions/composer@v6
       - uses: php-actions/phpstan@v3
         with:
-          path: php/
+          path: php/app/
           level: 0
   
   Build:
