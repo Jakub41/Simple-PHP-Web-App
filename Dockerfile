@@ -5,4 +5,4 @@ RUN apt-get update && apt-get install -y \
 		libpng-dev \
 	&& docker-php-ext-install mysqli \
 	&& docker-php-ext-enable mysqli
-COPY www /var/www/html/
+COPY app /var/www/html/
