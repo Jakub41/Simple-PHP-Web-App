@@ -1,7 +1,7 @@
  <?php
 include 'connection.php';
 
-$sql = "SHOW TABLES LIKE 'emails'";
+/* $sql = "SHOW TABLES LIKE 'emails'";
 $result = $conn->query($sql);
 if ($result) {
 	$sql = "CREATE TABLE emails (
@@ -16,7 +16,7 @@ if ($result) {
 	} else {
 	    echo "Error creating table: " . $conn->error;
 	}
-}
+} */
 
 echo "yoooo";
 $sql = "INSERT INTO emails (name, message, email,gender)
