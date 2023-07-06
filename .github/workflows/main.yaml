@@ -16,7 +16,7 @@ jobs:
           working_dir: app/
       - uses: php-actions/phpstan@v3
         with:
-          path: app/php/
+          path: app/www/
           level: 0
   
   build-and-deploy:
